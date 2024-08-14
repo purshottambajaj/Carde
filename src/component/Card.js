@@ -18,7 +18,7 @@ const MyCard = () => {
           <Card.Text className='custom-quote'>
           "As Dr. Elara stepped through the shimmering portal, she knew there was no turning back. The fate of two universes now rested in her hands..."
           </Card.Text>
-          <span style={{color : '#6F25B4'}}>Read More</span>
+          <span style={{ color: '#6F25B4' }} onClick={() => window.location.href = '/'}>Read More</span>
         </Card.Body>
       </Card>
       <Card className='mycard'>
@@ -29,7 +29,7 @@ const MyCard = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <span style={{color : '#6F25B4'}}>Read More</span>
+          <span style={{ color: '#6F25B4' }} onClick={() => window.location.href = '/'}>Read More</span>
         </Card.Body>
       </Card>
       <Card className='mycard'>
@@ -40,7 +40,7 @@ const MyCard = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <span style={{color : '#6F25B4'}}>Read More</span>
+          <span style={{ color: '#6F25B4' }} onClick={() => window.location.href = '/'}>Read More</span>
         </Card.Body>
       </Card>
     </div>
